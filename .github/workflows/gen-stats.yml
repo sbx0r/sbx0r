@@ -17,12 +17,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac #v4
       - name: Generate Stats
-        uses: actions-marketplace-validations/Zo-Bro-23_grs-action@main
-        id: generate
+        uses: BestJarvan/BestJarvan@master
+        id: stats
         with:
           token: ${{ secrets.GH_TOKEN }}
-          options: 'username=${{ github.repository_owner }}&show=prs_merged,prs_merged_percentage&show_icons=true&theme=dracula'
+          options: 'username=${{ github.repository_owner }}&show=prs_merged_percentage,prs_merged,reviews&show_icons=true&theme=noctis_minimus'
           path: 'grs/stats.svg'
+      - name: Generate Stats
+        uses: BestJarvan/BestJarvan@master
+        id: langs
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          options: 'username=${{ github.repository_owner }}&theme=noctis_minimus'
+          card: 'top-langs'
+          path: 'grs/langs.svg'
       - name: Push
         uses: crazy-max/ghaction-github-pages@c05ee637ec73429400a359430db8e5629f3f2564 #v4
         with:
