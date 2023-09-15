@@ -21,7 +21,7 @@ jobs:
         id: generate
         with:
           token: ${{ secrets.GH_TOKEN }}
-          options: 'username=${{ github.repository_owner }}'
+          options: 'username=${{ github.repository_owner }}&show=prs_merged,prs_merged_percentage'
           path: 'grs/README.svg'
       - uses: actions/upload-artifact@master
         with:
