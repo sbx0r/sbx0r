@@ -21,14 +21,14 @@ jobs:
         id: stats
         with:
           token: ${{ secrets.GH_TOKEN }}
-          options: 'username=${{ github.repository_owner }}&show=prs_merged_percentage,prs_merged,reviews&show_icons=true&theme=noctis_minimus'
+          options: 'username=${{ github.repository_owner }}&hide=stars&show=prs_merged_percentage,prs_merged,reviews&show_icons=true&custom_title=My Stats (Public and Private)&theme=noctis_minimus'
           path: 'grs/stats.svg'
       - name: Generate Stats
         uses: BestJarvan/BestJarvan@master
         id: langs
         with:
           token: ${{ secrets.GH_TOKEN }}
-          options: 'username=${{ github.repository_owner }}&theme=noctis_minimus'
+          options: 'username=${{ github.repository_owner }}&custom_title=Most Used Languages (Public)&card_width=320&theme=noctis_minimus'
           card: 'top-langs'
           path: 'grs/langs.svg'
       - name: Push
