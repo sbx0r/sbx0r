@@ -1,0 +1,176 @@
+- type: Public Clouds
+  data:
+    - name: Azure
+      officialURL: https://azure.microsoft.com/en-us/
+      predefinedBadge: https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white&logoWidth=30
+    - name: AWS
+      officialURL: https://aws.amazon.com/
+      predefinedBadge: https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white&logoWidth=30
+- type: Containerization And Orchestration
+  data:
+    - name: Kubernetes
+      officialURL: https://kubernetes.io
+      predefinedBadge: https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white&logoWidth=30
+    - name: k3s
+      officialURL: https://k3s.io/
+      predefinedBadge: https://img.shields.io/badge/k3s-%23232323.svg?style=for-the-badge&logo=k3s&logoColor=yellow
+    - name: k0s
+      iconURL: https://raw.githubusercontent.com/k0sproject/k0sproject.github.io/e044e806aed8d191fd309dba9ebe95d91f7b44a6/images/k0s-logo-app-icon.png
+      officialURL: https://k0sproject.io/
+    - name: minikube
+      iconURL: https://raw.githubusercontent.com/kubernetes/minikube/master/images/logo/logo.png
+      officialURL: https://minikube.sigs.k8s.io/docs/
+    - name: Docker
+      officialURL: https://www.docker.com/
+      predefinedBadge: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white&logoWidth=30
+    - name: Buildah
+      iconURL: https://raw.githubusercontent.com/containers/common/main/logos/buildah-logo-full-vert.png
+      officialURL: https://buildah.io/
+    - name: Podman
+      officialURL: https://podman.io/
+      predefinedBadge: https://img.shields.io/badge/podman-%236a6a6a.svg?style=for-the-badge&logo=podman&logoColor=purple&logoWidth=30
+    - name: Helm
+      officialURL: https://helm.sh/
+      predefinedBadge: https://img.shields.io/badge/helm-%23232323.svg?style=for-the-badge&logo=helm&logoColor=blue&logoWidth=30
+    - name: Kustomize
+      iconURL: https://global-uploads.webflow.com/64196dbe03e13c204de1b1c8/64773f8290c3ed0164b362c9_80-image-4.png
+      officialURL: https://kustomize.io/
+- type: Container Security
+  data:
+    - name: Cert Manager
+      iconURL: https://raw.githubusercontent.com/cncf/artwork/master/projects/cert-manager/icon/color/cert-manager-icon-color.png
+      officialURL: https://cert-manager.io/
+    - name: Kubernetes Secrets Store CSI Driver
+      iconURL: https://raw.githubusercontent.com/kubernetes/community/master/icons/png/resources/labeled/secret-128.png
+      officialURL: https://secrets-store-csi-driver.sigs.k8s.io/
+    - name: External Secrets
+      iconURL: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+      officialURL: https://external-secrets.io/latest/
+    - name: Vault
+      officialURL: https://www.vaultproject.io/
+      predefinedBadge: https://img.shields.io/badge/vault-%23232323.svg?style=for-the-badge&logo=vault&logoColor=yellow&logoWidth=30
+    - name: Trivy
+      iconURL: https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png
+      officialURL: https://trivy.dev/
+    - name: Oauth2 Proxy
+      iconURL: https://raw.githubusercontent.com/oauth2-proxy/oauth2-proxy/master/docs/static/img/logos/OAuth2_Proxy_icon.svg
+      officialURL: https://oauth2-proxy.github.io/oauth2-proxy/
+- type: Container Networking
+  data:
+    - name: Nginx Ingress Controller
+      officialURL: https://github.com/kubernetes/ingress-nginx
+      predefinedBadge: https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white
+    - name: Traefik Proxy
+      officialURL: https://doc.traefik.io/traefik/
+      predefinedBadge: https://img.shields.io/badge/traefik-%23232323.svg?style=for-the-badge&logo=traefikproxy&logoColor=blue
+- type: CI/CD
+  data:
+    - name: FluxCD
+      officialURL: https://fluxcd.io/
+      predefinedBadge: https://img.shields.io/badge/fluxcd-%23232323.svg?style=for-the-badge&logo=flux&logoColor=blue
+    - name: ArgoCD
+      iconURL: https://raw.githubusercontent.com/cncf/artwork/master/projects/argo/icon/color/argo-icon-color.png
+      officialURL: https://argoproj.github.io/cd/
+    - name: Jenkins
+      officialURL: https://www.jenkins.io/
+      predefinedBadge: https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white&logoWidth=30
+    - name: GitHub Actions
+      officialURL: https://github.com/features/actions
+      predefinedBadge: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white&logoWidth=30
+    - name: Azure DevOps
+      officialURL: https://azure.microsoft.com/pl-pl/products/devops
+      predefinedBadge: https://img.shields.io/badge/azure%20devops-%232671E5.svg?style=for-the-badge&logo=azuredevops&logoColor=white&logoWidth=30
+    - name: Apache Maven
+      officialURL: https://maven.apache.org/
+      predefinedBadge: https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white&logoWidth=30
+    - name: Apache Tomcat
+      officialURL: https://tomcat.apache.org/
+      predefinedBadge: https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black&logoWidth=30
+- type: VCS
+  data: 
+    - name: GitHub
+      officialURL: https://github.com
+      predefinedBadge: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&logoWidth=30
+    - name: BitBucket
+      officialURL: https://bitbucket.org/
+      predefinedBadge: https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white&logoWidth=30
+- type: Infrastructure Automation and Configuration
+  data:
+    - name: Crossplane
+      iconURL: https://avatars.githubusercontent.com/u/45158470?s=200&v=4
+      officialURL: https://www.crossplane.io/
+    - name: Terraform
+      officialURL: https://www.terraform.io/
+      predefinedBadge: https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white&logoWidth=30
+    - name: Vagrant
+      officialURL: https://www.vagrantup.com/
+      predefinedBadge: https://img.shields.io/badge/vagrant-%231563FF.svg?style=for-the-badge&logo=vagrant&logoColor=white&logoWidth=30
+    - name: Packer
+      officialURL: https://www.packer.io/
+      predefinedBadge: https://img.shields.io/badge/packer-%23E7EEF0.svg?style=for-the-badge&logo=packer&logoColor=%2302A8EF&logoWidth=30
+    - name: Ansible
+      officialURL: https://www.ansible.com/
+      predefinedBadge: https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white&logoWidth=30
+- type: Monitoring
+  data:
+    - name: Pixie
+      iconURL: https://avatars.githubusercontent.com/u/82631609?s=48&v=4
+      officialURL: https://px.dev/
+    - name: Sentry
+      iconURL: https://e7.pngegg.com/pngimages/282/295/png-clipart-red-illustration-sentry-logo-icons-logos-emojis-tech-companies.png
+      officialURL: https://sentry.io/
+    - name: Grafana
+      officialURL: https://grafana.com/
+      predefinedBadge: https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white&logoWidth=30
+    - name: Prometheus
+      officialURL: https://prometheus.io/
+      predefinedBadge: https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white&logoWidth=30
+    - name: DataSet (ex. Scalyr)
+      iconURL: https://avatars.githubusercontent.com/u/1189709?s=200&v=4
+      officialURL: https://app.scalyr.com/
+- type: Code Scanning
+  data:
+    - name: Codecov
+      officialURL: https://about.codecov.io/
+      predefinedBadge: https://img.shields.io/badge/codecov-%23ff0077.svg?style=for-the-badge&logo=codecov&logoColor=white&logoWidth=30
+    - name: SonarQube
+      officialURL: https://www.sonarsource.com/products/sonarqube/
+      predefinedBadge: https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD&logoWidth=30
+- type: Artifact Management
+  data:
+    - name: Nexus
+      iconURL: https://assets-global.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2af61146c55b6e172fa5b3_NexusRepo_Icon.png
+      officialURL: https://www.sonatype.com/products/sonatype-nexus-repository
+    - name: JFrog Artifactory
+      iconURL: https://user-images.githubusercontent.com/19695083/73797283-9f75c100-477d-11ea-8ad2-ad9da73aa83d.png
+      officialURL: https://jfrog.com/artifactory/
+- type: Databases
+  data:
+    - name: PostgreSQL
+      officialURL: https://www.postgresql.org/
+      predefinedBadge: https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white&logoWidth=30
+- type: Operating Systems
+  data:
+    - name: Ubuntu
+      officialURL: https://ubuntu.com/
+      predefinedBadge: https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&logoWidth=30
+    - name: Debian
+      officialURL: https://www.debian.org/
+      predefinedBadge: https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white&logoWidth=30
+    - name: RedHat
+      officialURL: https://www.redhat.com/
+      predefinedBadge: https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white&logoWidth=30
+- type: Programming/Scripting Languages
+  data:
+    - name: Bash
+      iconURL: https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg
+      officialURL: https://www.gnu.org/software/bash/
+    - name: Python
+      officialURL: https://www.python.org/
+      predefinedBadge: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&logoWidth=30
+    - name: GoLang
+      officialURL: https://go.dev/
+      predefinedBadge: https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white&logoWidth=30
+    - name: Java
+      officialURL: https://www.java.com/en/
+      predefinedBadge: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white&logoWidth=30
