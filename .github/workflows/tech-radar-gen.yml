@@ -1,0 +1,36 @@
+name: Generate Tech Radar
+on:
+  workflow_run:
+    workflows: ["GitHub Readme Stats"]
+    types:
+    - completed  
+
+jobs:
+  tech-radar:
+    if: github.actor != 'sbxportfoliobot[bot]'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    name: Generate Stats
+    steps:
+      - name: Generate GitHub Token
+        id: token
+        uses: getsentry/action-github-app-token@97c9e23528286821f97fba885c1b1123284b29cc #v2.0.0
+        with:
+          app_id: ${{ secrets.AUTOMATION_BOT_ID }}
+          private_key: ${{ secrets.AUTOMATION_BOT_KEY }}
+      - name: Checkout
+        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac #v4
+        with:
+          token: ${{ steps.token.outputs.token }}
+      - name: Install Imagemagick
+        uses: mfinelli/setup-imagemagick@350700ae01cb546c71420c33243723ae121c9f5f #v2.0.1
+      - name: Run Script
+        run: bash ./scripts/badges-builder.sh
+      - name: Commit files
+        run: |
+          git config user.name "sbxportfoliobot[bot]"
+          git config user.email "145298219+sbxportfoliobot[bot]@users.noreply.github.com"
+          git add ./README.md
+          git commit -m "docs: update tech radar"
+          git push

@@ -1,14 +1,14 @@
-# actions-marketplace-validations/Zo-Bro-23_grs-action
 name: GitHub Readme Stats
 on:
   push:
     branches: main
   workflow_dispatch:
-#   schedule:
-#   - cron: 0 * * * *
+  schedule:
+  - cron: 0 * * * *
 
 jobs:
   grs:
+    if: github.actor != 'sbxportfoliobot[bot]'
     permissions:
       contents: write
     runs-on: ubuntu-latest

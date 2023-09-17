@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -o
+set -e
 
 readonly BADGE_COLOR="d1d2d3"
 readonly BADGES_URL="https://img.shields.io/badge"
