@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sebastian Bakala
+    tagline: Senior DevOps Engineer
+    avatar: # profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: bakala.sebastian@proton.me
+    phone: (+48)732-971-738
+    timezone: Europe/Warsaw Timezone
+    citizenship: Polish
+    linkedin: bakala-sebastian
+    github: SebastianBakala-TomTom 
+    pdf: # there will be an url to github artifact
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Polish
+          level: Native
+        - idiom: English
+          level: Technical
+
+    interests:
+      title: Interests
+      info:
+        - item: Dogs
+          link:
+        - item: Hiking
+          link:
+        - item: Cooking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm a cloud enthusiast specialized at Infrastructure, CI/CD, Monitoring, and Security topics with some sort of programming knowledge. 
+      I'm not a programming expert but i wish to become one. 
+      That's why I invest my free time in GoLang course right now along with my standard {DevOps|SRE|Platform Engineering} (whatever you call it) rituals.
+
+education:
+    title: Education
+    info:
+      - degree: 
+        university: Technical University of Lodz
+        time: 2017 - 2021
+        details: |
+          - Ex vice-president of the 'main()' Science Club [2018-2020], 
+          - Beneficiary of 'Projekt Innowacja' for the best students [2019],
+          - I was building private cloud within the research grant. Main goal of this project wat to help students to improve their programming skills [2019].
+
+experiences:
+    title: Experiences
+    info:
+      - role: Senior Software Engineer
+        time: Mar 2022 - Present
+        company: TomTom
+        details: |
+          Introduced Infrastructure as a Platform to my team to speedup infrastructure delivery process (self-service). 
+          So not only the software was delivered through kubernetes, but infrastructure too.
+          
+      - role: Software Engineer
+        time: Nov 2020 - Feb 2022
+        company: TomTom
+        details: |
+          I was involved in cloud migration (AWS->Azure) and infrastructure automation process.
+          We were working on unification for Infrastructure (with Terraform, Packer and Ansible) and service deployment with (Docker/Buildah).
+          Later on I was moved to software engineering team (Java + JavaScript) as a single DevOps Engineer. I was there to help them
+          to move their deployment process to the next level with Kubernetes, ArgoCD, Grafana/Prometheus, GitHub Actions and many others 
+          (see <a href="https://github.com/SebastianBakala-TomTom" target="_blank">my GitHub profile</a>).
+
+      - role: Junior Software Engineer
+        time: Aug 2019 - Oct 2020
+        company: TomTom
+        details: |
+          I was maintananing CI/CD pipelines on BitBucket and Jenkins, 
+          managing on-prem infrastructure (standalone servers), 
+          migrating services deployed to on-prem to the AWS, 
+          maintaining AWS infrastructure,
+          and introducing containerization to some services.
+
+certifications:
+      title: Certifications
+      list:
+        - name: None
+          details: |
+            I am pragmatic.
+
+skills:
+    title: Skills &amp; Proficiency 
+
+    toolset:
+      - name: <a href="https://github.com/SebastianBakala-TomTom" target="_blank">Find it on my GitHub</a>
+
+footer: |
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>
+    Resume generated from <a href="https://github.com/sharu725/online-cv" target="_blank">Online CV</a>
