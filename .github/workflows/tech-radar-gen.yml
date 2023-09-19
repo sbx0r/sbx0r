@@ -5,6 +5,10 @@ on:
     types:
     - completed  
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   tech-radar:
     if: github.actor != 'sbxportfoliobot[bot]'
