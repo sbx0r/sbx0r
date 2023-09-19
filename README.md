@@ -113,4 +113,6 @@ Technologies that I productionally used so far:
   <img title="Most used Langs (public only)" height=200 align="center" src="https://github.com/SebastianBakala-TomTom/SebastianBakala-TomTom/blob/gh-stats/langs.svg"/>
 </a>
 
+---
+
 [![Hits](https://hits.sh/github.com/SebastianBakala-TomTom/SebastianBakala-TomTom.svg)](https://hits.sh/github.com/SebastianBakala-TomTom/SebastianBakala-TomTom/)
