@@ -77,8 +77,9 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.13.0
         with:
+          token: steps.token.outputs.token
           allowUpdates: true
           replacesArtifacts: true
           artifacts: portfolio/cv.pdf
           name: Resume
-          token: steps.token.outputs.token
+          commit: ${{ github.ref }}
