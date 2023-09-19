@@ -72,7 +72,8 @@ jobs:
       - name: Generate PDF
         uses: docker://pandoc/latex:3.1-ubuntu
         with:
-          args: apt update && apt install wkhtmltopdf --no-install-recommends --no-install-suggests -y && --no-install-recommend pandoc -f html-native_divs -o portfolio/cv.pdf --pdf-engine=wkhtmltopdf ${{ needs.deploy.outputs.page_url }}
+          entrypoint: sh
+          args: -c "apt update && apt install wkhtmltopdf --no-install-recommends --no-install-suggests -y && --no-install-recommend pandoc -f html-native_divs -o portfolio/cv.pdf --pdf-engine=wkhtmltopdf ${{ needs.deploy.outputs.page_url }}"
       - name: Create Release
         uses: ncipollo/release-action@v1.13.0
         with:
