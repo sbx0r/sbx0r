@@ -34,7 +34,7 @@ jobs:
       - name: Push
         uses: crazy-max/ghaction-github-pages@c05ee637ec73429400a359430db8e5629f3f2564 #v4
         with:
-          target_branch: gh-pages
+          target_branch: gh-stats
           build_dir: grs
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
