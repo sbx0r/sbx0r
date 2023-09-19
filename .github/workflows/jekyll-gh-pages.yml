@@ -82,4 +82,4 @@ jobs:
           replacesArtifacts: true
           artifacts: portfolio/cv.pdf
           name: Resume
-          commit: ${{ github.ref }}
+          tag: 0.1.0
