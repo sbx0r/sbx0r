@@ -29,12 +29,6 @@
     - name: Podman
       officialURL: https://podman.io/
       predefinedBadge: https://img.shields.io/badge/podman-%236a6a6a.svg?style=for-the-badge&logo=podman&logoColor=purple&logoWidth=30
-    - name: Helm
-      officialURL: https://helm.sh/
-      predefinedBadge: https://img.shields.io/badge/helm-%23232323.svg?style=for-the-badge&logo=helm&logoColor=blue&logoWidth=30
-    - name: Kustomize
-      iconURL: https://global-uploads.webflow.com/64196dbe03e13c204de1b1c8/64773f8290c3ed0164b362c9_80-image-4.png
-      officialURL: https://kustomize.io/
 - type: Container Security
   data:
     - name: Cert Manager
@@ -65,6 +59,12 @@
       predefinedBadge: https://img.shields.io/badge/traefik-%23232323.svg?style=for-the-badge&logo=traefikproxy&logoColor=blue
 - type: CI/CD
   data:
+    - name: Helm
+      officialURL: https://helm.sh/
+      predefinedBadge: https://img.shields.io/badge/helm-%23232323.svg?style=for-the-badge&logo=helm&logoColor=blue&logoWidth=30
+    - name: Kustomize
+      iconURL: https://global-uploads.webflow.com/64196dbe03e13c204de1b1c8/64773f8290c3ed0164b362c9_80-image-4.png
+      officialURL: https://kustomize.io/
     - name: FluxCD
       officialURL: https://fluxcd.io/
       predefinedBadge: https://img.shields.io/badge/fluxcd-%23232323.svg?style=for-the-badge&logo=flux&logoColor=blue
