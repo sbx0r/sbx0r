@@ -61,14 +61,14 @@ experiences:
     title: Experiences
     info:
       - role: Senior Software Engineer
-        time: Mar 2020 - Present
+        time: Mar 2021 - Present
         company: TomTom
         details: |
           Introduced Infrastructure as a Platform to my team to speedup infrastructure delivery process (self-service). 
           So not only the software was delivered through kubernetes, but infrastructure too.
           
       - role: Software Engineer
-        time: Nov 2019 - Feb 2020
+        time: Nov 2019 - Feb 2021
         company: TomTom
         details: |
           I was involved in cloud migration (AWS->Azure) and infrastructure automation process.
