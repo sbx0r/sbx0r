@@ -18,8 +18,8 @@ sidebar:
     timezone: Europe/Warsaw Timezone
     citizenship: Polish
     linkedin: bakala-sebastian
-    github: SebastianBakala-TomTom 
-    pdf: https://github.com/SebastianBakala-TomTom/SebastianBakala-TomTom/releases/download/0.1.0/cv.pdf
+    github: sbx0r
+    pdf: https://github.com/sbx0r/sbx0r/releases/download/0.1.0/cv.pdf
 
     languages:
       title: Languages
@@ -42,9 +42,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a cloud enthusiast specialized at Infrastructure, CI/CD, Monitoring, and Security topics with some sort of programming knowledge. 
-      I'm not a programming expert but i wish to become one. 
-      That's why I invest my free time in GoLang course right now along with my standard {DevOps|SRE|Platform Engineering} (whatever you call it) rituals.
+      I'm a cloud enthusiast specializing in Infrastructure, CI/CD, Monitoring, and Security, with a foundational understanding of programming.
+      While I'm not yet an expert in programming, I'm continuously expanding my knowledge and skills in this area.
+      Currently, I'm focusing on exploring GenAI, RAG systems, and Prompt Engineering, investing my free time in these areas alongside my usual {DevOps|SRE|Platform Engineering} activities.
 
 education:
     title: Education
