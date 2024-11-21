@@ -104,15 +104,4 @@ Technologies that I productionally used so far:
 
 ---
 
-# GitHub Stats
-
-<a href="https://github.com/SebastianBakala-TomTom/SebastianBakala-TomTom">
-  <img title="GitHub Stats (Public and Private)" width=500 height=200 align="center" src="https://github.com/SebastianBakala-TomTom/SebastianBakala-TomTom/blob/gh-stats/stats.svg"/>
-</a>
-<a href="https://github.com/SebastianBakala-TomTom/SebastianBakala-TomTom">
-  <img title="Most used Langs (public only)" height=200 align="center" src="https://github.com/SebastianBakala-TomTom/SebastianBakala-TomTom/blob/gh-stats/langs.svg"/>
-</a>
-
----
-
 [![Hits](https://hits.sh/github.com/SebastianBakala-TomTom/SebastianBakala-TomTom.svg)](https://hits.sh/github.com/SebastianBakala-TomTom/SebastianBakala-TomTom/)
