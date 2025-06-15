@@ -1,8 +1,10 @@
-# Welcome.
+# Who am I?
 
-I'm a cloud enthusiast specialized at Infrastructure, CI/CD, Monitoring, and Security topics with some sort of programming knowledge. I'm not a programming expert but i wish to become one. That's why I invest my free time in GoLang course right now along with my standard {DevOps|SRE|Platform Engineer} (whatever you call it) rituals.
-
-Technologies that I productionally used so far:
+Passionate DevOps / SRE / Cloud Engineer with hands-on experience in designing and operating resilient, secure, and scalable cloud infrastructures.
+Actively contributing to the CNCF project [Kagent](https://github.com/kagent-dev), where I help shape cloud-native agent orchestration and multi-tenant Kubernetes platforms. Through open-source, I get to collaborate with inspiring engineers and technology enthusiasts from around the world — it's a constant source of learning and motivation.
+I've led and supported numerous migrations from on-premises to the cloud, cloud-to-cloud transitions, and hybrid-cloud deployments.
+Skilled in building landing zones, designing IaC-based environments, implementing robust CI/CD pipelines, enabling observability, and enforcing security best practices at scale.
+I stay on the edge of modern infrastructure technologies — not just because it’s my job, but because I genuinely love what I do.
 
 <div align=center>
 
